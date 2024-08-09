@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детекторы рентгеновского излучения на основе перовскита</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1E90FF; /* Синий Доджера */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #1E90FF; /* Синий Доджера */
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            width: 80%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-logo {
+            max-width: 100px; /* Adjust the size as needed */
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Детекторы рентгеновского излучения на основе перовскита</h1>
+        <nav>
+            <ul>
+                <li><a href="#matrix-detectors">Матричные детекторы</a></li>
+                <li><a href="#linear-pixel-detectors">Линейные детекторы</a></li>
+                <li><a href="#additional-info">Дополнительная информация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="matrix-detectors">
+            <h2>Матричные детекторы</h2>
+            <div class="image-container">
+                <img src="matrix_detector.jpg" alt="Матричные детекторы">
+            </div>
+            <p>Описание: Матричные детекторы обеспечивают возможность получения изображения с высоким разрешением, подходящим для различных применений в медицинской диагностике. </p>
+            <p>Характеристики:</p>
+            <ul>
+                <li>Высокая чувствительность</li>
+                <li>Низкий уровень шума на уровне 1 пА</li>
+                <li>Быстродействие 50 нс</li>
+                <li>Размер пикселя от 50 мкм</li>
+            </ul>
+            <p>Стоимость: По запросу.</p>
+        </section>
+
+        <section id="linear-pixel-detectors">
+            <h2>Линейные детекторы</h2>
+            <div class="image-container">
+                <img src="linear_pixel_detector.jpg" alt="Линейные детекторы">
+            </div>
+            <p>Описание: Линейные детекторы обеспечивают точное изображение, идеально подходят для области промышленного контроля и безопасности.</p>
+            <p>Характеристики:</p>
+            <ul>
+                <li>Высокая чувствительность</li>
+                <li>Низкий уровень шума на уровне 1 нА</li>
+                <li>Быстродействие 500 нс</li>
+                <li>Размер пикселя от 70 мкм</li>
+            </ul>
+            <p>Стоимость: По запросу.</p>
+        </section>
+
+        <section id="additional-info">
+            <h2>Дополнительная информация</h2>
+            <p>Для получения дополнительной информации или коммерческого предложения, пожалуйста, свяжитесь с нами по адресу <a href="mailto:m1807567@edu.misis.ru">m1807567@edu.misis.ru</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Проект поддержан Фондом содействия инновациям в рамках программы «Студенческий стартап» федерального проекта «Платформа университетского технологического предпринимательства»</p>
+        <div class="logo-container">
+            <img src="head_logo_fasie.png" alt="Логотип Фонда содействия инновациям" class="footer-logo">
+        </div>
+    </footer>
+
+</body>
+</html>
